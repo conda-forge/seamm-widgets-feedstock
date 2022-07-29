@@ -1,13 +1,13 @@
 {% set name = "seamm-widgets" %}
-{% set version = "2022.5.23" %}
-{% set sha256 = "bd84a30b4b34c755d6d44d2dc719302e1d7878d37302dccf7d7817ea67efb33a" %}
+{% set version = "2022.7.29" %}
+{% set sha256 = "712c6a5c80534d876a04506dd4313e1ec059c16f389a6d65905e453a9a0d3d17" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/seamm-widgets/seamm_widgets-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/99/0f/fe2337571fc754134aaa83582a21540c29b4ab33136816d8642209f5cc1a/seamm_widgets-2022.7.29.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -18,13 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - setuptools
   run:
     - pillow
     - pmw
-    - python >=3.7
-    - seamm-util >=2021.5.5
+    - python >=3.8
+    - requests
+    - seamm-util
 
 test:
   imports:
