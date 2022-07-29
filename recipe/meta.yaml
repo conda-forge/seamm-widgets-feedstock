@@ -24,6 +24,7 @@ requirements:
     - pillow
     - pmw
     - python >=3.8
+    - requests
     - seamm-util
 
 test:
