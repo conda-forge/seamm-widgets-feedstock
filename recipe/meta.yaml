@@ -1,13 +1,13 @@
 {% set name = "seamm-widgets" %}
-{% set version = "2026.6.28" %}
-{% set sha256 = "aa84ba797ea668e6a943d618a12007785efc1358ad769098b0840210863bf4cb" %}
+{% set version = "2026.9.18" %}
+{% set sha256 = "506875a78a4c40e703c557cfb21ae9843762787e2480a9b93e55d64fd1359ed8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/seamm-widgets/seamm_widgets-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/s/seamm-widgets/seamm_widgets-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
