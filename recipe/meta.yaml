@@ -1,6 +1,6 @@
 {% set name = "seamm-widgets" %}
-{% set version = "2026.9.18" %}
-{% set sha256 = "506875a78a4c40e703c557cfb21ae9843762787e2480a9b93e55d64fd1359ed8" %}
+{% set version = "2026.9.25" %}
+{% set sha256 = "b7173d5e715b832ce043a6c9cfc152136f7c88315b3a14b58609ea82bdc54feb" %}
 
 package:
   name: {{ name|lower }}
